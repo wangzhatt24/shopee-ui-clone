@@ -305,11 +305,7 @@ a {
 .banner-section {
   padding-top: 30px;
 }
-.ad {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
+
 .slide-commont a {
   text-align: center;
   text-decoration: none;
