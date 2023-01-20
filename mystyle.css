@@ -137,7 +137,7 @@ a {
 }
 .box-app-wrapper {
   position: absolute;
-  top: 50px;
+  top: 45px;
   left: -60px;
   width: 186px;
   background-color: white;
@@ -337,6 +337,11 @@ a {
 .cate-wrapper-1 {
   padding-top: 20px;
 }
+.cate-text-wrapper {
+  word-break: break-word;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 .cate-wrapper .cate-title {
   display: flex;
   align-items: center;
@@ -525,10 +530,20 @@ a {
   font-weight: 500;
   margin-bottom: 30px;
 }
+.rs-product-wrapper {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
 .rs-content-product {
   box-shadow: 0 1px 2px 0 rgb(0 0 0 / 10%);
   border: 0.1px solid wheat;
   position: relative;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+.rs-content-product:hover {
+  z-index: 10;
+  transform: scale(1.01);
 }
 .rs-content-product-img {
   position: relative;
@@ -568,7 +583,7 @@ a {
   border-width: 0 18px 4px;
 }
 .rs-content-product-img-favorite {
-  z-index: 2;
+  z-index: 4;
   position: absolute;
   top: 10px;
   left: -3px;
