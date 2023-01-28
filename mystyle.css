@@ -570,6 +570,7 @@ a {
   text-transform: uppercase;
   font-size: 0.75rem;
   padding: 4px 3px 2px 3px;
+  background-color: rgba(255, 211, 36, 0.712);
 }
 .rs-content-product-img-discount::after {
   content: "";
@@ -781,5 +782,12 @@ p {
 @media (max-width: 1023px) {
   .commont-keyword {
     display: none;
+  }
+}
+
+/* fix spacing between header and main in small device */
+@media (max-width: 740px) {
+  .main {
+    margin-top: 20px;
   }
 }
