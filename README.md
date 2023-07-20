@@ -20,3 +20,6 @@
 - Kiểm soát phiên bản với Git và đồng thời lưu trữ trên Github
 
 ### Links: https://wangzhatt24.github.io/shopee-ui-clone/
+
+### Ảnh chụp màn hình
+![screenshot]("./screencapture-wangzhatt24-github-io-shopee-ui-clone-2023-07-21-00_26_25.png")
